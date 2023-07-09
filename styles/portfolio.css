@@ -1,0 +1,34 @@
+/*Nav related styles*/
+
+nav {
+    display: flex;
+}
+
+
+.pt{
+    color: #FD6E0A;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.web title{
+    color: #181818;
+font-size: 45px;
+font-weight: 800;
+}
+
+nav>ul {
+    display: flex;
+
+}
+
+.il {
+    list-style:none;
+    margin-right:50px;
+}
+
+.pts {
+ background: #FD6E0A;
+ border-radius: 8px;
+}
