@@ -2,6 +2,8 @@
 
 nav {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 
@@ -20,6 +22,7 @@ font-weight: 800;
 
 nav>ul {
     display: flex;
+    align-items: center;
 
 }
 
@@ -31,4 +34,13 @@ nav>ul {
 .pts {
  background: #FD6E0A;
  border-radius: 8px;
+ border: 0px;
+ color: white ;
+ font-style: normal;
+ font-weight: 700;
+ padding: 15px 35px;
+}
+
+nav a {
+     text-decoration: none ;
 }
