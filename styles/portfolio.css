@@ -27,10 +27,6 @@ nav>ul {
 
 }
 
-.ban-cnt{
-
-}
-
 .il {
     list-style:none;
     margin-right:50px;
@@ -53,15 +49,36 @@ nav a {
 /*header related styles*/
 .head{
     background-color: #fff8f3;
+    background-image: url('/images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 
+.bnr-cnt{
+    max-width: 500px;
+    
+}
 .banner{
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center ;
+    justify-content: space-between;
 }
 
 .pro {
     width: 500px ;
 
+}
+
+.bg {
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0;
+}
+
+.bt {
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin: bottom 20px;;
 }
